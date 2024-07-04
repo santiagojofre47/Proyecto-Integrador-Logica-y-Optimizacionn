@@ -1,0 +1,76 @@
+h1 {
+    color: #b41b81;
+    font-family: verdana;
+    font-size: 230%;
+  }
+  
+  body{
+      background: rgb(148,61,180);
+      background: linear-gradient(45deg, rgba(148,61,180,1) 28%, rgba(39,43,115,1) 51%, rgba(0,0,0,1) 100%);
+      
+  }
+  
+  label{
+      color:#d6e4dc;
+      font-size: 120%;
+  }
+  
+  .center-block {
+              width: 50%; 
+              margin: 0 auto; /* Centra horizontalmente */
+              padding: 300px;
+              text-align: center;
+              margin-top: 40px; 
+  }
+  
+  button[type="submit"] {
+      background-color:#45a049;
+  
+      color: white;
+      border: none;
+      padding: 1em;
+      cursor: pointer;
+      width: 30%; /* Hacer que el botón de envío ocupe todo el ancho */
+      margin-top: 30px; 
+  }
+  
+  button[type="submit"]:hover {
+      background-color: #0b790b;
+  }
+
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+p {
+    color: #f3f1f2;
+    font-family: verdana;
+    font-size: 180%;
+    margin-bottom: 20px; /* Espacio entre párrafos */
+  }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+    background-color: #e7f0ed;
+}
+
+th{
+    background-color: #1fb2bd;
+    color: white;
+}
+
+td {
+    border-bottom: 1px solid #030303;
+}

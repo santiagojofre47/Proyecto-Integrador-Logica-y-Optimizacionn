@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+    
+h1 {
+  color: #b41b81;
+  font-family: verdana;
+  font-size: 230%;
+}
+
+body{
+    background: rgb(148,61,180);
+    background: linear-gradient(45deg, rgba(148,61,180,1) 28%, rgba(39,43,115,1) 51%, rgba(0,0,0,1) 100%);
+    
+}
+
+label{
+    color:#1bb460;
+    font-size: 120%;
+}
+
+.center-block {
+            width: 50%; 
+            margin: 0 auto; /* Centra horizontalmente */
+            padding: 300px;
+            text-align: center;
+            margin-top: 40px; 
+}
+
+input[type="submit"] {
+    background-color:#0b790b;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    width: 30%; /* Hacer que el botón de envío ocupe todo el ancho */
+    margin-top: 30px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de datos</title>
+</head>
+
+<body>
+    <div class = "center-block">
+    <h1>Carga de datos</h1>
+    
+    <form action="/submit" method="post">
+        <label for="bebida">campo 1:</label><br>
+        <input type="text" id="campo_1" name="campo_1" required><br><br>
+
+        <label for="beneficio">campo 2:</label><br>
+        <input type="campo_2" id="campo_2" name="campo_2" required><br><br>
+
+        <label for="campo3">campo 3:</label><br>
+        <input type="text" id="campo_3" name="campo_3" required><br><br>
+
+        <label for="campo 4">campo 4:</label><br>
+        <input type="text" id="campo_4" name="campo_4" required> <br><br>
+
+        <label for="campo 5">campo 5:</label><br>
+        <input type="text" id="campo_5" name="campo_5" required> <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>

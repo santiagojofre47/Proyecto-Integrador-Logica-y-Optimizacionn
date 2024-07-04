@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <div class = "center-block">
+    <form>
+        <label for="cItems">Cantidad de Items:</label><br>
+        <input type="text" id="cItems" name="cItems"><br>
+        <label for="cRecursos">Cantidad de Recursos:</label><br>
+        <input type="text" id="cRecursos" name="cRecursos">
+        <button type="button" onclick="cargarItems()">Enviar</button>
+    </form>
+
+        
+    <h1>Carga de datos</h1>
+    <p> Items </p>
+    <form id="Valor">
+       </form>
+    
+    <form id="Capacity" method="post"><p>Recursos mochila</p>
+
+        
+    </form>
+    
+
+    <form id="Use" method="post">
+        <p>Uso mochila</p>
+    </form>
+       
+     
+    <p id="feedback"></p>
+    
+    
+    <button onclick="cambiarPagina('/resultado.html')">Ir a resultado</button>
+
+    <script>
+        function cambiarPagina(url) {
+            window.location.href = url;
+        }
+       
+
+    </script>
+    </div>
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>

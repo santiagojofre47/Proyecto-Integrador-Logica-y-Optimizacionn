@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2024-05-28T14:57:04.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="kJAKKpOZaKix9QSIuD__" version="24.0.7" type="device">
+  <diagram name="Página-1" id="yoNSLprnKNa47a-ON6Ub">
+    <mxGraphModel dx="1674" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-1" value="Usuario Final&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="305" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-2" value="Ingresar datos de entrada&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIHRg-t4VisRT3r0jZ9Q-1" target="iIHRg-t4VisRT3r0jZ9Q-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="350" as="sourcePoint" />
+            <mxPoint x="280" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-9" value="Sistema&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="620" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-10" value="Convertir datos a csv" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-11" value="Establecer comunicación con las APIs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="590" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-12" value="Mostrar resultados al usuario" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="690" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="iIHRg-t4VisRT3r0jZ9Q-9" target="iIHRg-t4VisRT3r0jZ9Q-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="630" as="sourcePoint" />
+            <mxPoint x="190" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iIHRg-t4VisRT3r0jZ9Q-9" target="iIHRg-t4VisRT3r0jZ9Q-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="710" as="sourcePoint" />
+            <mxPoint x="100" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="iIHRg-t4VisRT3r0jZ9Q-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="660" as="sourcePoint" />
+            <mxPoint x="130" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iIHRg-t4VisRT3r0jZ9Q-17" value="Colocar posibles includes o extends para el CU &quot;Establecer comunicación con las APIs&quot;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="650" y="550" width="150" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

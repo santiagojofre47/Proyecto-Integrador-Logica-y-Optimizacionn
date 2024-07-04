@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <description>A simple knapsack model, Integer Programming</description>
+    	
+    <configs>
+        		
+        <config default="true" name="Default Configuration" category="opl">
+            			
+            <ref name="knapsack.dat" type="data">
+			</ref>
+            			
+            <ref name="knapsack.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>
